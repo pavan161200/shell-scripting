@@ -5,4 +5,4 @@ echo A=$(A)
 
 ## command subs
 NO_OF_USERS=$(who |wc -1)
-echo number of u8sers = $NO_OF_USERS
+echo number of users = $NO_OF_USERS
