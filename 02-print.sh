@@ -23,7 +23,7 @@ echo -e Hello world,\n\tWelcome
 # COLORS AND THEIR CODES ARE
 #   RED        31
 #   GREEN      32
-#   YELLOOW    33
+#   YELLOW    33
 #   BLUE       34
 #   MAGENTA    35
 #   CYAN       36
@@ -33,3 +33,5 @@ echo -e "\e[33mMESSAGE IN YELLOW"
 
 echo hello world in plain color
 echo oh kk ra 4 in RED
+
+echo -e "\e[34mMOUNARAGAAM"
