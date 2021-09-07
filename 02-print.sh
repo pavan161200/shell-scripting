@@ -28,8 +28,10 @@ echo -e Hello world,\n\tWelcome
 #   MAGENTA    35
 #   CYAN       36
 
-echo -e "\e[31mMESSAGE IN RED"
-echo -e "\e[33mMESSAGE IN YELLOW"
+# color enable will take those colors to next lines, Hence we need to diable color when we are done with color printing. \e[0m , 0 will reset the color
+
+echo -e "\e[31mMESSAGE IN RED\e[0m"
+echo -e "\e[33mMESSAGE IN YELLOW\e[0m"
 
 echo hello world in plain color
 echo oh kk ra 4 in RED
