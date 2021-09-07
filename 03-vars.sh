@@ -10,5 +10,8 @@ NO_OF_USERS=$(who |wc -1)
 echo number of users = $NO_OF_USERS
 
 ##date with command substitution
-DATE=$(date)
+DATE=$(date +%F)
+echo welcome, today date is $DATE
+
+echo COURSE NAME = ${COURSE_NAME}
 
