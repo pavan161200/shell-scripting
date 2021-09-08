@@ -9,10 +9,10 @@ cart:  ##  Install cart component
 payment:  ##  Install payment component
     @echo Installing payment
 mysql:  ##  Install mysql component
-    @echo Installing mysql
+    @echo Installing mySQL
 mongodb:  ##  Install mongodb component
     @echo Installing mongodb
-rabbitmq:  ##  Install rabbitmq component
+rabbitmq:  ##  Install rabbitMQ component
     @echo Installing rabbitmq
 redis:  ##  Install catalogue component
     @echo Installing redis
