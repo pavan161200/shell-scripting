@@ -20,4 +20,5 @@ user:  ##  Install user component
     @bash user.sh
 shipping:  ##  Install shipping component
     @bash shipping.sh
+databases:   ## Install All databases
 databases:  mangodb redis mysql rabbitmq   ## Install All databases
