@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-
+LOG=/tmp/roboshop/log
 echo -e "Installing nginx -y\t\t...\t\e[32mdone\e[om"
 yum install nginx -y
 ### 1. output from commands should not be displayed on screen
